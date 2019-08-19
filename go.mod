@@ -3,6 +3,7 @@ module cfssl
 go 1.12
 
 require (
+	bitbucket.org/liamstask/goose v0.0.0-20150115234039-8488cc47d90c // indirect
 	github.com/GeertJohan/go.rice v1.0.0
 	github.com/certifi/gocertifi v0.0.0-20190506164543-d2eda7129713 // indirect
 	github.com/cloudflare/backoff v0.0.0-20161212185259-647f3cdfc87a
@@ -17,9 +18,11 @@ require (
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/kisielk/sqlstruct v0.0.0-20150923205031-648daed35d49
 	github.com/kisom/goutils v1.3.0
+	github.com/kylelemons/go-gypsy v0.0.0-20160905020020-08cad365cd28 // indirect
 	github.com/lib/pq v1.2.0
 	github.com/mattn/go-sqlite3 v1.11.0
 	github.com/pkg/errors v0.8.1 // indirect
+	github.com/ziutek/mymysql v1.5.4 // indirect
 	github.com/zmap/zcrypto v0.0.0-20190729165852-9051775e6a2e
 	github.com/zmap/zlint v0.0.0-20190812234238-3307e6abe190
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
